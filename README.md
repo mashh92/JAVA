@@ -1,5 +1,14 @@
 Slip no 1
 1
+<html>
+<body bgcolor='pink'>
+<form action="a5_a1.php" method="GET">
+<br>
+<input type='submit' value='OK'>
+</form>
+</body>
+</html>
+
 <?php
 session_start();
 if (!isset($_SESSION['access_count'])) {
